@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+
+
+#contenido{
+    width: 960px; 
+    margin: 0 auto;
+}
+
+ main {
+    display: flex;
+ }
+
+section{
+    width: 700px;
+    float: right;
+    
+   
+}
+
+aside {
+    width: 260px;
+    float: left;
+}
+
+.column {
+    float: left;
+    width: 31%;
+    padding-left: 15px;
+    }

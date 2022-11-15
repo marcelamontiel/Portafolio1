@@ -1,0 +1,137 @@
+  /* Comentarios en css */
+        
+  * {
+    margin: auto;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    background-color: aqua;
+}
+/* Encabezado */
+
+header {
+    background-color: #38cc2a;
+}
+
+header h1 {
+    text-align: center;
+    color: beige;
+    padding: 5px;
+}
+
+header h2 {
+    text-align: center;
+    color: #275dc1;
+}
+/* Menu */
+
+nav {
+    background-color: #cc2a86;
+    padding: 10px;
+}
+
+nav p {
+    display: inline;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0.8em;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #eee83d;
+    background-color: #cc2a86;
+    margin: 0.8em;
+}
+/* La seccion de la pagina  */
+
+main {
+    display: flex;
+}
+
+section {
+    width: 80%;
+    background-color: #275dc1;
+    float: left;
+    padding-bottom: 200px;
+    padding-top: 40px;
+}
+
+section h2 {
+    text-align: center;
+    color: #eee83d;
+    font-weight: 400;
+    padding: 2px;
+}
+
+section p {
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+}
+/* Los articulos de la pagina  */
+
+article {
+    margin: 0.5em 3em;
+    padding: 0;
+    background-color: #eee83d;
+    color: blue;
+    border: 1px double red;
+}
+
+article p {
+    text-align: justify;
+    padding: 20px;
+    font-size: 14px;
+}
+/* La seccion que va al ladito de la seccion de la pagina  */
+
+aside {
+    width: 20%;
+    background-color: #275dc1;
+    float: left;
+    padding-bottom: 200px;
+    padding-top: 40px;
+}
+
+aside h2 {
+    text-align: center;
+    color: #1ec16f;
+    font-size: 16px;
+}
+
+aside p {
+    text-align: center;
+    color: #152340;
+    font-size: 12px;
+}
+
+footer {
+    text-align: center;
+    color: #efeff0;
+    font-size: 12px;
+    background-color: #424242;
+    clear: left;
+    padding: 30px;
+    position: fixed;
+    bottom: 0vh;
+    width: 100%;
+}
+
+.blog {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+img {
+    padding-inline: 36px;
+    width: 61%;
+    margin: auto;
+}

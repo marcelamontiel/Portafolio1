@@ -1,0 +1,21 @@
+
+
+body{
+    font-family: sans-serif;
+    background-color: lightblue;
+    padding: 10px;
+
+    
+}
+
+h1{
+    color: red;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,53 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+body{
+    background: linear-gradient(215deg, rgb(86, 200, 248) 10%, rgb(71, 173, 228),rgb(112, 67, 245),rgb(131, 95, 239),rgb(218, 65, 238));
+  
+}
+
+img{
+    width: 250px;
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1, h2, sub{
+    display: flex;
+    justify-content: center;
+    color: white;
+    }
+
+#licenciatura{
+    font-style: oblique;
+    font-size: medium;
+}
+
+.colorPresentacion, .colorHabilidades, .colorcontacto {
+    background-color: rgb(255, 255, 255);
+}
+
+.colorHerramientas , .colorExperencia{
+    background-color: purple;
+    color: aliceblue;
+    
+}
+
+.colorEducacion{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.colorHabilidades{
+    background-color: rgb(255, 255, 255);
+}
+

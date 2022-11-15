@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <link rel="stylesheet" href="/Leccion 4/css/bootstrap.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+                <div class="col-6">
+                    <h2>Función utilizando un elemento</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Ingrese su Nombre</label>
+                            <input type="text" name="nombre" id="nombre" class="form-group">
+
+                        </div>
+                        <div class="form-group">
+                            <button id="btnbienvenido" class="btn btn-warning">Ingresar</button>
+                        </div>
+                    </form>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <h2>Funci&oacute;n utilizando dos o más elementos </h2>
+                <form>
+                    <div class="form-group">
+                        <label for="numeroUno">Ingresa el primer número</label>
+                        <input type="text" name="numeroUno" id="numeroUno" class="form-group">
+                        <label for="numeroDos">Ingresa el segundo número</label>
+                        <input type="text" name="numeroDos" id="numeroDos" class="form-group">
+                    </div>
+                        <br>
+                    <div class="form-group">
+                        <button id="btnSumar" class="btn btn-danger">Sumar</button>
+                    </div>
+                </form>
+                <div id="respuesta"></div>
+                </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="/Leccion 4/js/bootstrap.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){  //Iniciamos la sentencia ready.
+            function bienvenido(nombre){ //creamos una funcion con nombre bienvenido
+                alert('hola ' + nombre);  //mostramos el mensaje por un alert 
+            }
+
+            $('#btnbienvenido').click(function(){  //al presionar el n¿boton btnBienvenido se va a ejecutar la 
+                var nombre = $('#nombre').val();  //creando una variable donde obtenemos el valor de la id nombre
+                bienvenido(nombre); //llamamos a la funcion bienvenidos donde le pasamos la varibale 
+            });
+
+            $('#btnSumar').click(function() {
+            event.preventDefault(); // Evita k recarguemos la pagina
+            //al variable utilizar variable como string se debe agregar el metodo parseInt
+            var numeroUno = parseInt($('#numeroUno').val());
+            var numeroDos = parseInt($('#numeroDos').val());
+                    //al utilizar el type numer desde html no se utiliza el metedo parseInt
+
+            var resultado = numeroUno + numeroDos;
+            var respuestaTexto = "El valor a Pagar es:" +resultado;
+
+            $('#respuesta').html(respuestaTexto);
+
+            });
+        });
+
+    </script>
+</body>
+</html>

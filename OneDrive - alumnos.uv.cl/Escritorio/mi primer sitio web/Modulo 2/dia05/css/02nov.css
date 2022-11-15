@@ -1,0 +1,147 @@
+/* SCSS RGB 
+$morning-blue: rgba(153, 176, 173, 1);
+$myrtle-green: rgba(76, 123, 119, 1);
+$granite-gray: rgba(100, 103, 99, 1);
+$black-olive: rgba(69, 74, 67, 1);
+$copper-rose: rgba(147, 102, 107, 1); */
+body{
+    font-family: 'Raleway', sans-serif;
+    min-height: 100%;
+    background-image: linear-gradient(to top, #0000);
+}
+.nav-color-fondo{
+    background-color: rgba(76, 123, 119, 1);
+}
+/* el punto en el nav se usa para ocupar la clase. hay 3 formas de trabajar una clase, el id, class o simplemente la etiqueta */
+.navegador{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navegador{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navegador
+.servicios
+.contacto{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.navegador a{
+    padding: 4px 0 4px 0;
+    color: rgb(240, 219, 221);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.navegador a:hover{
+    /* background-color: rgba(147, 102, 107, 1); */
+    background: linear-gradient(#f69d3c, #3f87a6);
+    color: rgba(69, 74, 67, 1);
+    padding: 4px 0px 4px 0px;
+}
+
+.navegador a:last of type{
+    margin-bottom: 0;
+}
+
+.imagen{
+    height: 600px;
+    background-image: url(/dia05/img/background1.jpg);
+    margin-bottom: 32px;
+    position: relative;
+ 
+}
+/*  */
+h2{
+    text-align: center;
+}
+
+.contenido-imagen {
+    /* background-color: rgb(0 0 0 / 70%); */
+    background-color: rgba(46, 77, 74, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.colorletrablanco{
+    color: #fff;
+    
+}
+
+.margen-colorletrablanco {
+    color: rgb(255, 255, 255);
+}
+.margin{
+    margin: 0px;
+}
+.colorletraboton{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: auto;
+}
+
+.boton {
+    background-color: #0097a7;
+    color: #fff;
+    margin-top: .5rem;
+    padding: .8rem 3rem;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    border: outset;
+    }
+
+.boton:hover{
+    background-color: rgba(147, 102, 107, 1);
+    color: rgba(69, 74, 67, 1);
+    padding: .8rem 3rem;
+}
+
+.mover{
+    align-items: center;
+    margin-top: 0.55rem;
+    position: absolute;
+    }
+
+.icono {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(69, 74, 67, 1);
+    border-radius: 50%;
+    margin: auto;
+}
+
+.color-fondo-servicios{
+    padding: 2rem;
+    margin-bottom: 3rem;
+    background-color: rgba(76, 123, 119, 1);
+    border-radius: 5%;
+    -webkit-box-shadow: 11px 6px 9px 2px rgba(69, 74, 67, 1);
+    -moz-box-shadow: rgba(153, 176, 173, 1);
+    box-shadow: rgba(153, 176, 173, 1);
+    text-align: center;
+}
+
+.margen16 {
+    margin: 16px;
+    text-align: justify;
+}

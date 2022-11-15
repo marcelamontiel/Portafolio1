@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+label{
+    font: 1rem 'Fira Sans', sans-serif;
+    }
+    
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  

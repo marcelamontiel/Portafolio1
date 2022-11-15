@@ -1,0 +1,100 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1{
+    font-weight: normal;
+    background-color: rgb(109, 109, 109);
+    border: 1px solid #000;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+
+
+}
+
+.colorrosa{
+background-color: crimson;
+border: 1px solid #000;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+color: #fff;
+}
+
+.coloramarillo{
+    background-color: yellow;
+    border: 1px solid #000;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 481px ){
+.pantalla{
+    width: 100%;
+}
+.pantalla1{
+    display: none;
+}
+
+.pantalla3{
+    display: none;   
+}
+
+.pantalla2 p{
+    
+        background-color: rosybrown;
+}
+}
+    
+@media only screen and (max-width: 480px ){
+    .pantalla {
+        width: 100%;
+    }
+    
+    .colorrosa{
+        background-color: lightsalmon;
+    }
+    .pantalla1{
+        display: none;
+    
+    }
+    .pantalla2{
+        display: none;
+    }
+    .pantalla3{
+        display: block  ;
+    }
+}
+
+@media only screen and (min-width: 1024px ){
+    .colorrosa{
+        background-color: green;
+    }
+    .pantalla{
+        width: 100%;
+    }
+    .pantalla1{
+        display: block;
+    
+    }
+    .pantalla2{
+        display: none;
+    }
+    .pantalla3{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
